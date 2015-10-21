@@ -1,0 +1,8 @@
+extends layout
+block content
+    .row.pad-top.pad-bottom
+        .col-lg-2.col-md-2.col-sm-2
+            img(src='#{data.image}', style='width:100px;height:100px;')
+        .col-lg-10.col-md-10.col-sm-10
+            h1 #{data.title}
+            h2 #{data.price}            
